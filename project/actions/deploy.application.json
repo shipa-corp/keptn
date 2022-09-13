@@ -1,0 +1,35 @@
+{
+  "specversion": "1.0",
+  "id": "c4d3a334-6cb9-4e8c-a372-7e0b45942f53",
+  "source": "source-service",
+  "type": "sh.keptn.event.action.triggered",
+  "datacontenttype": "application/json",
+  "data": {
+    "project": "shipa",
+    "stage": "dev",
+    "service": "shipa-keptn",
+    "status": "succeeded",
+    "result": "pass",
+    "message": "Application deployed",
+    "action": {
+      "name": "Deploy application",
+      "action": "deploy.application",
+      "description": "Test application deploy",
+      "value": {
+        "name": "keptn-app-1",
+        "deploy": {
+          "image": "docker.io/shipasoftware/bulletinboard:1.0",
+          "steps": 2,
+          "step-weight": 1,
+          "step-interval": "3m",
+          "port": 8000,
+          "detach": true,
+          "message": "Message"
+        }
+      }
+    }
+  },
+  "shkeptncontext": "a3e5f16d-8888-4720-82c7-6995062905c1"
+}
+
+

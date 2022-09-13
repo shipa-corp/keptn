@@ -1,0 +1,37 @@
+{
+  "specversion": "1.0",
+  "id": "c4d3a334-6cb9-4e8c-a372-7e0b45942f53",
+  "source": "source-service",
+  "type": "sh.keptn.event.action.triggered",
+  "datacontenttype": "application/json",
+  "data": {
+    "project": "shipa",
+    "stage": "dev",
+    "service": "shipa-keptn",
+    "status": "succeeded",
+    "result": "pass",
+    "message": "Cluster updated",
+    "action": {
+      "name": "Update cluster",
+      "action": "update.cluster",
+      "description": "Test cluster update",
+      "value": {
+        "name": "keptn-cl-1",
+        "endpoint": {
+          "addresses": ["https://6447e999-3820-47f4-addf-4acf5faf6522.us-west-1.linodelke.net:443"],
+          "caCert": "-----BEGIN CERTIFICATE-----\nMIIC5zCCAc+gAwIBAgIBADANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwprdWJl\ncm5ldGVzMB4XDTIxMDYwNzE1MzQyMFoXDTMxMDYwNTE1MzQyMFowFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANmp\nzP1x6e0oPM4+RcN+PlqaUoYqeFCkDEzo95P9JD4d2gFCJ9ZsgkIDOD6cma9nQxbL\nPLYsf10YSYulMNIuqA5TWOiVqdcNPQFUqS7xyhnb0XDdMq72yvoOoTDUNaVjpdou\nQd6tZVPnfNpT9VNYTcBM033jdhLOTYuO1bm8Y2wQoDeNn1Zufx593vyCPyWOE64o\nQI4/mEDzdVRv15DFGmbfmV9rpKBZKf8hTU9OG0mqVfXFwXdZ00OBlLlsuA+nicGy\ntSmFEzHvLXCVxyQKYJ3AJ9I9lNjLZPwMithOyVuEoNofYcZqzrTOuPmCCN4VFTQ2\n94/tMzEfVhSFZBG8SekCAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgKkMA8GA1UdEwEB\n/wQFMAMBAf8wHQYDVR0OBBYEFP7Qr9KaReMJzP9m4kkeaLx51viUMA0GCSqGSIb3\nDQEBCwUAA4IBAQDY52DFb4kFtEIeLXtcsIp+20hvUaX0D89ovlVSW/xXr/JRVb1P\nRSpGkHXAT7BYsgI+NK4p8j5vOAyVFglrnxuGn443BxY1s0k0PjixdWyicLtPF0g4\nM7lBFmu+oQ8xLwSLjYVZgvyDueusPgS7ZdUkvJBRbpXVbyY+WR7U9WBMKJcNuEq2\nTZHk+mFlccV4aJR+jru6PeHs6mIZjIUL+n1BQS4lRzWaulIMUSeGN/dnnTNjNlB1\nkgtZ808hy9r1NfmyajBe9ULqdmzysVC/k/CqANhot60Tz9gBFN7s1w9gJ9R7sPF+\nD4ycNmlG6SVvbzYegTCFMsfhZDiDPP4xOO8k\n-----END CERTIFICATE-----",
+          "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkdEeE9pbmcwX2phdExIYVpYVTg2ZmFVWjJDX2VaaV9HQWtmYmx4QnMzdUkifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJzaGlwYS1hZG1pbi10b2tlbi1wZ3pyZiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJzaGlwYS1hZG1pbiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjA3NjI5N2FjLTE2MjUtNDVmMi04YzBjLWZiYzZmZDUwMjBlOCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlLXN5c3RlbTpzaGlwYS1hZG1pbiJ9.kZPmxAQm4ExLQRjxkyvSe5uGP5NnxHTj5zgXP3FwptmOeGXFqxKD9i8sCiIl4Qnum80bHZm0SoEvUvEfrq-r3P8SIKCLIQbSpfEuuTlF5iE0rQpmYnKc6cVre0yfJlWj3VzsNkViQ34aar_AAiRLn68gbhdKOOh0Jds0hBUfiHOr3M85rfWQvJdzpo1Z148AU4E9btdp0_v4kxCy5_KrN515H_cVLn420rcrk4L651DBW6UB8t89tWZecr0TCuDjbD9D0Tb_MlXY6meoGu8p7xXPwtnmMRyBTyc7LRSgHQMkgguZhSSU8N43opFBM7UvFcEvACFLLmdVDPTqAWNwdw",
+          "clientKey": "my-key"
+        },
+        "resources": {
+          "frameworks": [
+            {"name": "keptn-framework-1"}
+          ]
+        }
+      }
+    }
+  },
+  "shkeptncontext": "a3e5f16d-8888-4720-82c7-6995062905c1"
+}
+
+

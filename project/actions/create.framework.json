@@ -1,0 +1,34 @@
+{
+  "specversion": "1.0",
+  "id": "c4d3a334-6cb9-4e8c-a372-7e0b45942f53",
+  "source": "source-service",
+  "type": "sh.keptn.event.action.triggered",
+  "datacontenttype": "application/json",
+  "data": {
+    "project": "shipa",
+    "stage": "dev",
+    "service": "shipa-keptn",
+    "status": "succeeded",
+    "result": "pass",
+    "message": "Framework created",
+    "action": {
+      "name": "Create framework",
+      "action": "create.framework",
+      "description": "Test framework creation",
+      "value": {
+        "shipaFramework": "keptn-framework-1",
+        "resources": {
+          "general": {
+            "setup": {
+              "provisioner": "kubernetes"
+            },
+            "router": "traefik"
+          }
+        }
+      }
+    }
+  },
+  "shkeptncontext": "a3e5f16d-8888-4720-82c7-6995062905c1"
+}
+
+
