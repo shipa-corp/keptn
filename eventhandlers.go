@@ -231,8 +231,8 @@ type ShipaHandler struct {
 }
 
 const (
-	ShipaHost  = "https://target.shipa.cloud:8081"
-	ShipaToken = "c316fd2398b7532ad1ca4443b278074ad5b0d1e78cfde2e3dade909d0660fa01"
+	ShipaHost  = "https://target.shipa.cloud"
+	ShipaToken = "..."
 )
 
 func NewShipaHandler() (*ShipaHandler, error) {
@@ -269,7 +269,7 @@ func (s *ShipaHandler) action(myKeptn *keptnv2.Keptn, data *keptnv2.ActionTrigge
 	if err != nil {
 		myKeptn.SendTaskFinishedEvent(&keptnv2.EventData{
 			Status:  keptnv2.StatusErrored, // alternative: keptnv2.StatusErrored
-			Result:  keptnv2.ResultFailed,      // alternative: keptnv2.ResultFailed
+			Result:  keptnv2.ResultFailed,  // alternative: keptnv2.ResultFailed
 			Message: err.Error(),
 		}, ServiceName)
 		return err
@@ -391,7 +391,7 @@ func (s *ShipaHandler) createApp(ctx context.Context, data []byte) error {
 }
 
 type AppDeployConfig struct {
-	Name string `json:"name"`
+	Name   string           `json:"name"`
 	Deploy *shipa.AppDeploy `json:"deploy"`
 }
 
